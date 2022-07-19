@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.adminimage img{
+   float: left;
+   background:#fff;
+   margin: auto;
+   width: 10%vw;
+}
+.student{
+    width:30%;
+    margin: 0px auto;
+    padding: 20px;
+    
+}
+
+.admin{
+    width:30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 2px;
+    
+}
+.header2,main input{
+    outline:none;
+    padding: 10px 10em;
+    font-size: 24px;
+    border-radius: 5px;
+   
+   
+}
+.header2 label{
+    font-size: 25px;
+    
+}
+.header2,main h1{
+    font-size: 40px;
+}
+
+

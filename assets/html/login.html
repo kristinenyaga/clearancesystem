@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/loginstyle.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="main">
-        <h1>Login</h1>
-        <input type="email" placeholder="email..."/>
-        <input type="password" placeholder="password..."/>
-        <button>Enter</button>
-    </div>
-    <div class="loggedstudent">
-        <h2>You are logged in as student</h2>
-    </div>
-    <div class="loggedadmin">
-        <div class=header2>
-            <h2>You are logged in as admin</h2>
+    <div class="student">
+        <div class="main">
+            <h1> Student Login</h1>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="studentmail" placeholder="email..."/><br>
+            <label for="">Password</label><br>
+            <input type="password" placeholder="password..."/><br>
+            <button>Enter</button>
+            <img src="../images/user (1).png">
         </div>
-        <div class="adminimage">
-            <img src="../images/man-in-suit-and-tie.png">
+          
+    </div>
+    <section>
+        <div class="admin">
+            <div class=header2>
+                <h1>Admin login</h1>
+                <label for="">Email</label><br>
+                <input type="email" id="adminmail" placeholder="email..."/><br>
+                <label for="">Password</label><br>
+                <input type="password" placeholder="password..."/><br>
+                <button>Enter</button>
+            </div>
+            <div class="adminimage">
+                
+                <img src="../images/man-in-suit-and-tie.png" alt="admin image">
+
+            </div>
+
 
         </div>
-
-
-    </div>
+    </section>    
 
 
     
