@@ -4,40 +4,128 @@
     box-sizing: border-box;
 }
 
-.adminimage img{
-   float: left;
-   background:#fff;
-   margin: auto;
-   width: 10%vw;
+.admin img{
+    width: 45rem;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 30px ;
+    border: hidden;
+    /* background-color: rgb(205, 205, 251); */
+    
+}
+.admin{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 15em;
+    border: 2px solid black;
+    border: hidden;
+    display: none;
+}
+.admindiv{
+    border: 3px solid black;
+    margin-top: 15px;
+    padding: 9rem 10rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: hidden;
+}
+#adminbtn{
+    padding: .5em 4em;
+    font-size: 2rem;
+    margin-top: 3px;
+    background-color: rgba(10, 6, 218, 0.655);
+    font-weight: bold;
+    border-radius: 15px;
+}
+.admindiv h1{
+    font-size: 80px;
+    padding: 2rem;
+    text-align: center;
+    
+    
+}
+.adminpara{
+    text-align: center;
+    padding: 1rem;
+   
+}
+.adminpara input{
+   padding: 1.5rem 8rem;
+   font-size: 1.7em;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.adminpara label{
+    font-size: 2em;
+    margin-top: 20px;
+
+}
+
+.student img{
+    width: 45rem;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 30px ;
+    border: hidden;
+    
 }
 .student{
-    width:30%;
-    margin: 0px auto;
-    padding: 20px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 15em;
+    border: 2px solid black;
+    border: hidden;
+    
     
 }
+.mainpar{
+    border: 3px solid black;
+    margin-top: 15px;
+    padding: 16rem 10rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: hidden;
+}
+.main h1{
+    font-size: 80px;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 20px;
+    text-decoration-color: rgba(10, 6, 218, 0.521);
+}
+#studentbtn{
+    padding: .5em 4em;
+    font-size: 2rem;
+    margin-top: 3px;
+    background-color: rgba(10, 6, 218, 0.521);
+    font-weight: bold;
+    border-radius: 15px;
+}
+#studentbtn:hover{
+    background-color:#fff ;
+    color: blue;
 
-.admin{
-    width:30%;
-    margin: 0px auto;
-    padding: 20px;
-    border: 2px;
-    
 }
-.header2,main input{
-    outline:none;
-    padding: 10px 10em;
-    font-size: 24px;
-    border-radius: 5px;
+.mainpar{
+    text-align: center;
+    padding: 10rem 14rem;
    
-   
 }
-.header2 label{
-    font-size: 25px;
-    
+.mainpar input{
+   padding: 1.5rem 8rem;
+   font-size: 1.7em;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
-.header2,main h1{
-    font-size: 40px;
+.mainpar input:focus{
+    background-color:white ;
 }
+.mainpar label{
+    font-size: 2em;
+    margin-top: 20px;
 
-
+}
