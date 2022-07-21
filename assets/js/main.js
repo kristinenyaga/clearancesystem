@@ -1,1 +1,0 @@
-button onclick="document.getElementById('btn')</button;
