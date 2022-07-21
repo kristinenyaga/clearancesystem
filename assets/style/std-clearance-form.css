@@ -17,24 +17,40 @@
   
   h1 {
     text-align: center;  
+<<<<<<< HEAD
+=======
+    color: #0f04aa;
+>>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
   }
   
   input {
     padding: 10px;
     width: 100%;
+<<<<<<< HEAD
     font-size: 17px;
     font-family: Raleway;
     border: 1px solid #aaaaaa;
+=======
+    font-size: 20px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    color: #333;
+>>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
   }
   
   /* Mark input boxes that gets an error on validation: */
   input.invalid {
+<<<<<<< HEAD
     background-color: #ffdddd;
+=======
+    background-color: whitesmoke;
+>>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
   }
   
   /* Hide all steps by default: */
   .tab {
     display: none;
+<<<<<<< HEAD
   }
   
   button {
@@ -49,6 +65,37 @@
   
   button:hover {
     opacity: 0.8;
+=======
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #0f04aa;
+    text-decoration-thickness: 3px;
+    font-weight: 400;
+
+  }
+  button:hover{
+    background-color: #f1f1f1;
+    color: #0f04aa;
+  }
+  
+  button {
+    background-color: #0f04aa;
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 20px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  #gender{
+   
+  }
+  
+  button:hover {
+    opacity: 1;
+>>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
   }
   
   #prevBtn {
@@ -74,4 +121,8 @@
   /* Mark the steps that are finished and valid: */
   .step.finish {
     background-color: #04AA6D;
+<<<<<<< HEAD
   }
+=======
+  }
+>>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
