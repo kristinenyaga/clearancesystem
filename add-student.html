@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style/add-student.css">
+    <title>Add Student</title>
+</head>
+<body>
+    <h2>Add Student Records</h2>
+    <!--Table-->
+    <table>
+        <tr>
+            <td>
+                <!--Form-->
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                	<h3>Student Form</h3>
+                    <div>
+                        <label>Full Name</label>
+                        <label class="validation-error hide" id="userNamevalidationError"></label>
+                        <input type="text" name="userName" id="userName" placeholder="Enter the user Name" required>
+                    </div>
+                    <div>
+                        <label>Email Address</label>
+                        <label class="" id="userNamevalidationError"></label>
+                        <input type="email" name="userEmail" id="userEmail" placeholder="Enter the user Email" required>
+                    </div>
+                    <div>
+                        <label>RegNo</label>
+                        <label class="validation-error hide" id="regNovalidationError" ></label>
+                        <input type="text" name="regNo" id="regNo" placeholder="Enter the Registration number" required>
+                    </div>
+                    <div>
+                        <label>Age</label>
+                        <label class="validation-error hide" id="agevalidationError"></label>
+                        <input type="number" name="age" id="age" placeholder="Enter the Age" required>
+                    </div>
+                    <div>
+                        <label>Course</label>
+                        <label class="validation-error hide" id="courseClassvalidationError"></label>
+                        <input type="text" name="courseClass" id="courseClass" placeholder="Enter the Course Name" required>
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <label class="" id="userNamevalidationError"></label>
+                        <input type="email" name="userEmail" id="userEmail" placeholder="Enter the user Email" required>
+                    </div>
+                    <div>
+                    <div class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td> 
+    <script src="./assets/js/add-student.js"></script>
+</body>
+</html>
