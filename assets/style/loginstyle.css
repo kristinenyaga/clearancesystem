@@ -72,9 +72,9 @@
 }
 .student{
     display: flex;
-    gap: .5rem;
+   
     justify-content: center;
-    margin-top: 15em;
+    margin-top: 10em;
     border: 2px solid black;
     border: hidden;
     
@@ -83,13 +83,14 @@
 .mainpar{
     border: 3px solid black;
     margin-top: 15px;
-    padding: 16rem 10rem;
+    padding: 11rem 10rem;
+    
     background-color: whitesmoke;
     border-radius: 50%;
     border: hidden;
 }
 .main h1{
-    font-size: 80px;
+    font-size: 40px;
     padding: 2rem;
     text-align: center;
     text-decoration: underline;
@@ -98,8 +99,8 @@
     text-decoration-color: rgba(10, 6, 218, 0.521);
 }
 #studentbtn{
-    padding: .5em 4em;
-    font-size: 2rem;
+    padding: .2em 2em;
+    font-size: 1.5rem;
     margin-top: 3px;
     background-color: rgba(10, 6, 218, 0.521);
     font-weight: bold;
@@ -112,21 +113,22 @@
 }
 .mainpar{
     text-align: center;
-    padding: 8rem 12rem;
+    padding: 6rem 14rem;
 
    
 }
 .mainpar input{
-   padding: 1.5rem 8rem;
-   font-size: 1.7em;
+   padding: 1rem 3rem;
+   font-size: 1em;
    margin-top: 10px;
    margin-bottom: 10px;
 }
 .mainpar input:focus{
     background-color:white ;
+    background-color: #fff;
 }
 .mainpar label{
-    font-size: 2em;
+    font-size: 1.4em;
     margin-top: 20px;
 
 }
