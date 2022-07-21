@@ -72,7 +72,7 @@
 }
 .student{
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
     justify-content: center;
     margin-top: 15em;
     border: 2px solid black;
@@ -112,7 +112,8 @@
 }
 .mainpar{
     text-align: center;
-    padding: 10rem 14rem;
+    padding: 8rem 12rem;
+
    
 }
 .mainpar input{
@@ -127,5 +128,65 @@
 .mainpar label{
     font-size: 2em;
     margin-top: 20px;
+
+}
+@media all and (min-width:200px) and (max-width:1400px){
+   
+    .student{
+        margin-top:20px;
+        margin: 0 auto;
+       
+    }
+    .mainpar{
+        padding: 1em 2em;
+        border: 2px solid black;
+        border-style: hidden;
+        width: 40em;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        
+    }
+    .mainpar input{
+        padding: 18px 12px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .student img{
+        width: 50px;
+        margin-top: 20px;
+    } 
+   
+    #studentbtn{
+    padding: 4px 20px;
+    font-size: 1rem;
+    margin-top: 3px;
+    background-color: rgba(10, 6, 218, 0.521);
+    font-weight: bold;
+    border-radius: 5px;
+    }
+    .mainpar label{
+        font-size: 20px;
+        margin-top: 5px;
+    
+    }
+    .main h1{
+        font-size: 50px;
+        padding: 20px;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 20px;
+        text-decoration-color: rgba(10, 6, 218, 0.521);
+    }
+    .student img{
+        width: 25rem;
+        border: 5px solid black;
+        border-radius: 50%;
+        padding: 30px ;
+        border: hidden;
+        
+    }
 
 }
