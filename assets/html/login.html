@@ -8,18 +8,26 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="student">
+    <div class="student" id="hidestudent">
+        <img src="../images/undraw_Mobile_login_re_9ntv (2).png">
         <div class="main">
-            <h1> Student Login</h1>
-            <label for="email">Email Address</label><br>
-            <input type="email" id="studentmail" placeholder="email..."/><br>
-            <label for="">Password</label><br>
-            <input type="password" placeholder="password..."/><br>
-            <button>Enter</button>
-            <img src="../images/user (1).png">
+            
+            <!-- <div class="mainpara"> -->
+                <form action="" class="mainpar" id="formData">
+                    <h1> Student Login</h1>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="studentem" placeholder="email..." /><br>
+                    <label for="">Password</label><br>
+                    <input type="password" id="studentpass" placeholder="password..." /><br>
+                    <button id="studentbtn" onclick="">Log In</button>
+                    
+                </form>
+              
+            <!-- </div> -->
         </div>
-          
+
     </div>
+
     <section>
         <div class="admin">
             <div class=header2>
@@ -39,7 +47,7 @@
 
         </div>
     </section>  
-    <script type="module">
+   <script src="../js/touch login.js"></script>
        
 </body>
 </html>
