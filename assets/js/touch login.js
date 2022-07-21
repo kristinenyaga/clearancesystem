@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // import { initializeApp } from "firebase/app";
 // import { getAuth } from "firebase/auth";
 
@@ -87,7 +86,6 @@ if (email==response.data[0]){
 }else{
     alert("")
 }
-=======
 const { text } = require("stream/consumers");
 
 function validation (){
@@ -108,4 +106,3 @@ function validation (){
     }
 
 }
->>>>>>> cd8c7a46de830525a17c4a5dfa691267fa015bef
