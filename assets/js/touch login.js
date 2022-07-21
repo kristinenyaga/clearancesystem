@@ -69,7 +69,7 @@
 //     const users = await Promise.all(promises);
 //     return users.map(user => user.data().tokens).flat()
 //     }
-document.querySelector('#formData')
+
 
 // fetch(url,{
 //     method: 'POST',
@@ -79,14 +79,8 @@ document.querySelector('#formData')
 
 
 
-fetch(url).then(response => response.json).then(response => data()).catch(error);
 
-if (email==response.data[0]){
-    window.location.href=''
-}else{
-    alert("")
-}
-const { text } = require("stream/consumers");
+
 
 function validation (){
     var form =document.getElementById('formData')
