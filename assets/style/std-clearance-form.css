@@ -17,55 +17,26 @@
   
   h1 {
     text-align: center;  
-<<<<<<< HEAD
-=======
     color: #0f04aa;
->>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
   }
   
   input {
     padding: 10px;
     width: 100%;
-<<<<<<< HEAD
-    font-size: 17px;
-    font-family: Raleway;
-    border: 1px solid #aaaaaa;
-=======
     font-size: 20px;
     font-family: Raleway;
     border: 1px solid #aaaaaa;
     color: #333;
->>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
   }
   
   /* Mark input boxes that gets an error on validation: */
   input.invalid {
-<<<<<<< HEAD
-    background-color: #ffdddd;
-=======
     background-color: whitesmoke;
->>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
   }
   
   /* Hide all steps by default: */
   .tab {
     display: none;
-<<<<<<< HEAD
-  }
-  
-  button {
-    background-color: #04AA6D;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 17px;
-    font-family: Raleway;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    opacity: 0.8;
-=======
     text-align: center;
     font-size: 20px;
     text-decoration: underline;
@@ -95,7 +66,6 @@
   
   button:hover {
     opacity: 1;
->>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
   }
   
   #prevBtn {
@@ -121,8 +91,4 @@
   /* Mark the steps that are finished and valid: */
   .step.finish {
     background-color: #04AA6D;
-<<<<<<< HEAD
   }
-=======
-  }
->>>>>>> 5d1d77bb53c74fa4341998aa8610a4f5d303e9e7
